@@ -32,10 +32,14 @@ It allows users to input numbers, compute their squares, store the results in a 
 ## 📁 Project Structure
 
 ```
-flask_data_analysis/
+NumSquare_Dashboard/
 ├── app.py
 ├── instance/
 │   └── data.db
+├── images/
+│   ├── home.png
+│   ├── chart.png
+│   └── results.png
 ├── templates/
 │   ├── base.html
 │   ├── chart.html
@@ -43,8 +47,10 @@ flask_data_analysis/
 │   └── results.html
 ├── venv/
 ├── .gitignore
+├── LICENSE
 ├── requirements.txt
 └── README.md
+```
 ```
 
 ---
