@@ -51,11 +51,10 @@ NumSquare_Dashboard/
 ├── requirements.txt
 └── README.md
 ```
-```
 
 ---
 
-## 🛠️ Getting Started
+### 🛠️ Getting Started
 
 ### 1. Clone this repository
 
