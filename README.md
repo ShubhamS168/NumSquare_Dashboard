@@ -131,3 +131,12 @@ This project is licensed under the **MIT License**.
 **Shubham Sourav**  
 *Data Science Enthusiast | Python Developer*
 
+---
+
+## 📬 Contact
+
+For any queries, feedback, or collaboration, feel free to connect:
+
+📧 **Email:** [shubhamsourav475@gmail.com](mailto:shubhamsourav475@gmail.com)
+
+---
