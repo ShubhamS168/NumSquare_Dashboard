@@ -1,4 +1,4 @@
-# 📊 Data Analysis Dashboard with Flask
+# 📊 NumSquare Dashboard with Flask
 
 This project is a web-based data analysis dashboard built using **Flask**, **SQLite**, and **Matplotlib**.  
 It allows users to input numbers, compute their squares, store the results in a database, and visualize the trends over time.
