@@ -21,11 +21,11 @@ It allows users to input numbers, compute their squares, store the results in a 
 ### 🏠 Home Page – Enter a Number
 ![Home Page](images/home.png)
 
-### 📈 Chart Page – Visualize Square Trends
-![Chart Page](images/chart.png)
-
 ### 📋 Results Page – See Stored Values
 ![Results Page](images/results.png)
+
+### 📈 Chart Page – Visualize Square Trends
+![Chart Page](images/chart.png)
 
 ---
 
