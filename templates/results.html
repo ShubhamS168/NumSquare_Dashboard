@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Results - Data Analysis Dashboard{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Stored Results</h2>
+    <p>
+        Below are the results of all calculations performed. Each entry shows the computed square value.
+    </p>
+    <ul>
+        {% for result in results %}
+            <li>Entry {{ result.id }}: <strong>{{ result.value }}</strong></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

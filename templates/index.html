@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Data Analysis Dashboard{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Welcome to the Data Analysis Dashboard</h2>
+    <p>
+        This project demonstrates how to build a web-based data analysis tool using Flask, SQLite, and Matplotlib. 
+        You can input numbers, compute their squares, store results in a database, and visualize them as a chart.
+    </p>
+    <h3>How to use</h3>
+    <p>
+        Enter a number below and click "Calculate" to compute its square. 
+        The result will be stored in the database. 
+        You can view all results on the "View Results" page and visualize them on the "View Chart" page.
+    </p>
+    <form action="/square" method="post">
+        <input type="number" name="num" placeholder="Enter a number" required>
+        <button type="submit">Calculate</button>
+    </form>
+</div>
+{% endblock %}
+

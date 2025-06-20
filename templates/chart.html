@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Chart - Data Analysis Dashboard{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Data Visualization</h2>
+    <p>
+        This chart visualizes the computed square values over time. 
+        Each point represents an entry in the database.
+    </p>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Square Values Chart">
+</div>
+{% endblock %}
